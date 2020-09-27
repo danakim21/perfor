@@ -1,0 +1,34 @@
+#navigationBar {
+  display: flex;
+}
+
+#navigationBar .navigationTitle {
+  font-family: IMFELL-Italic;
+  flex: 3;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+
+#navigationBar nav {
+  font-family: Times, "Times New Roman", serif;
+  flex: 2;
+  display: flex;
+}
+
+#navigationBar nav a {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  line-height: 2em;
+}
+
+#navigationBar nav .currentPage {
+  font-weight: bold;
+}
+
+#navigationBar nav .otherPage:hover {
+  color: #b3818a;
+}

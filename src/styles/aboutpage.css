@@ -1,0 +1,112 @@
+#about-1 {
+  display: flex;
+  margin: 7% 2% 10% 2%;
+}
+
+#about-1 img {
+  flex: 1;
+}
+
+#about-1 div {
+  flex: 2;
+  text-align: center;
+}
+
+#about-1 div p:not(:last-child) {
+  font-family: Times, "Times New Roman", serif;
+}
+
+#about-1 div p:last-child {
+  font-family: IMFELL-GreatPrimer-Italic;
+}
+
+#about-2 {
+  margin: 10% 2%;
+}
+
+#about-2 h3 {
+  text-align: center;
+}
+
+#about-three-notes {
+  display: flex;
+  text-align: center;
+}
+
+#about-three-notes div {
+  flex: 1;
+}
+
+#about-3 {
+  margin: 10% 2%;
+}
+
+#about-3 h3 {
+  text-align: center;
+}
+
+#about-3-categories {
+  display: flex;
+}
+
+#about-3-text {
+  flex: 5;
+}
+
+#about-3-image {
+  flex: 1;
+}
+
+.about-3-category {
+  display: flex;
+}
+
+.about-3-cat-title {
+  color: white;
+  background: #e5989a;
+}
+
+#about-4 {
+  margin: 10% 2%;
+}
+
+#about-4 h3 {
+  text-align: center;
+}
+
+#about-4-concentration {
+  display: flex;
+  margin-top: 7%;
+}
+
+#about-4-concentration img {
+  flex: 2;
+}
+
+.about-4-text {
+  flex: 3;
+}
+
+.about-4-text:first-child {
+  text-align: right;
+  margin-right: 10%;
+}
+
+.about-4-text:last-child {
+  margin-left: 10%;
+}
+
+.about-4-text div:first-child {
+  margin-bottom: 20%;
+}
+
+.about-4-text div p {
+  margin: 2%;
+}
+
+.about-4-text div p:first-child {
+  font-family: IMFELL-GreatPrimer-Italic;
+  color: white;
+  background: #65616d;
+  display: inline-block;
+}
